@@ -160,7 +160,21 @@ body:has(#__framer-editorbar.fullscreen) {
     <!-- End of bodyEnd -->
 
 
-<iframe id="__framer-editorbar" src="./balancebeam_files/saved_resource.html" style="clip-path: inset(calc(50% - 16px) 0% calc(50% - 16px) calc(100% - 32px));"></iframe></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+<iframe id="__framer-editorbar" src="./balancebeam_files/saved_resource.html" style="clip-path: inset(calc(50% - 16px) 0% calc(50% - 16px) calc(100% - 32px));"></iframe>
+
+<style>
+form button[type="submit"] {
+  pointer-events: auto !important;
+  z-index: 10 !important;
+  position: relative;
+}
+form {
+  position: relative;
+  z-index: 1;
+}
+</style>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
       div.grammarly-desktop-integration {
         position: absolute;
         width: 1px;
